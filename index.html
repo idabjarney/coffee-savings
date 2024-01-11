@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/coffee-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee savings</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
+    <script type="module" crossorigin src="/assets/index-699b6959.js"></script>
+    <link rel="stylesheet" href="/assets/index-0bec31bc.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="background-img">
+        <img src="/assets/coffee-beans-7aaa83f0.jpg" alt="" srcset="">
+      </div>
+      <div class="background-vector">
+        <img src="/assets/vector-fill-8db45765.png" alt="" srcset="">
+      </div>
+      <div class="line-vector">
+        <img src="/assets/vector-line-53dcad73.png" alt="" srcset="">
+      </div>
+      <div class="inner">
+        <div class="heading-container">
+          <h1>Could those cups of coffee 
+            <span class="really">really</span> be affecting your <span class="savings">savings?</span></h1>
+        </div>
+        <div class="main-container" id="container">
+          <div class="coffee-cup-container">
+            <div class="cup-lid-dent"></div>
+            <div class="cup-lid-top"></div>
+            <div class="cup-lid-wrapper">
+              <div class="cup-lid">
+                <div class="cup-lid-shading-wrapper">
+                  <div class="cup-lid-shading"></div>
+                </div>
+              </div>
+            </div>
+            <div class="cup-main-wrapper">
+              <div class="cup-main">
+                <div class="cup-main-shading-wrapper">
+                  <div class="cup-main-shading-1"></div>
+                  <div class="cup-main-shading-2"></div>
+                </div>
+              </div>
+            </div>
+            <div class="cup-bottom-wrapper">
+              <div class="cup-bottom">
+                <div class="cup-bottom-shading-wrapper">
+                  <div class="cup-bottom-shading"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs-input-wrapper">
+            <div class="input-wrapper">
+              <div class="tabs-wrapper hidden">
+                <div class="tab tab-info selected-tab" data-showtab="calculation-information">
+                  <span class="material-symbols-outlined">
+                    info
+                    </span>
+                </div>
+                <div class="tab tab-1" data-showtab="x-year-results" data-years="5">
+                  <h6>5 YEARS</h6>
+                  <h5 class="hidden">5</h5>
+                </div>
+                <div class="tab tab-2" data-showtab="x-year-results" data-years="10">
+                  <h6>10 YEARS</h6>
+                  <h5 class="hidden">10</h5>
+                </div>
+                <div class="tab tab-3" data-showtab="x-year-results" data-years="15">
+                  <h6>15 YEARS</h6>
+                  <h5 class="hidden">16</h5>
+                </div>
+                <div class="tab tab-4" data-showtab="x-year-results" data-years="retirement">
+                  <h6>AT AGE 67</h6>
+                  <h5 class="hidden">AT 67</h5>
+                </div>
+              </div>
+              <div class="input-container">
+                <form class="calculator-form ">
+                  <div class="input age-container">
+                    <label for="age">Your age?</label>
+                    <input class="user-input age-input" name="age" type="number" placeholder="26" pattern="[0-9]+" required>
+                  </div>
+                  <div class="input cups-per-week-container">
+                    <label for="cups">Estimated cups per week?</label>
+                    <input class="user-input cups-per-week-input" name="cups" type="number" placeholder="14" pattern="[0-9]+" required>
+                  </div>
+                  <div class="input price-per-cup-container">
+                    <label for="cups">Price per coffee of choice? (£)</label>
+                    <input class="user-input coffee-price-input" name="cups" type="number" placeholder="£ 3.9" pattern="[0-9]+" step=".01" required>
+                  </div>
+                  <div class="submit-btn-container ">
+                    <input class="button submit-btn" type="submit" value="SUBMIT">
+                  </div>
+                </form>
+                <div class="results-wrapper hidden">
+                  <div class="calculation-information active">
+                    <h3>
+                      The run down
+                    </h3>
+                    <p class="p-1">
+                      According to  the information you have given, every week you spend  on average <span class="pounds">£</span><span class="user-input-value weekly-cost-value"></span> on buying coffee for <span class="pounds">£</span><span class="user-input-value cup-input-value"></span> a cup. This would add up to <span class="pounds">£</span><span class="user-input-value annual-cost-value"></span> annually.
+                    </p>
+                    <p>
+                      Select the tabs above to find out what you could be saving over time if you started today.. Or if you wish to know how the calculations work click the questionmark tab on the right hand side.
+                    </p>
+                  </div>
+                  <div class="x-year-results hidden">
+                    <h3>
+                      After <span class="x-year">5</span> years
+                    </h3>
+                    <p>If you were to instead of buying coffee, to put the money into a standard savings account with a 2.84% interest rate..</p>
+                    <h4>
+                      You could save up to..
+                    </h4>
+                    <h2>£ <span class="x-year-savings-result">38,534.64</span></h2>
+                  </div>
+                  <div class="calculation-details hidden">
+                    <h3>How the calculations work</h3>
+                    <p>
+                      A 2.84% interest rate is based on the best standard savings rate available in April 2018. 
+                      This assumes that you would switch your savings account each year to retain the same or similar rate. 
+                      *The pension rate used is 2%, which is the lowest return available. The current state pension age is 63 for women and 65 for men, but this is changing. 
+                    </p>
+                    <p>
+                      By 2026 both men and women will be able to retire at age 67, so this is the age we have used. 
+                      The price of coffee has not been adjusted for inflation over the time period. This calculator is for illustration purposes only and figures cannot be guaranteed. 
+                      If you have any questions about savings or pension contributions you are advised to see speak to a qualified financial advisor.
+                    </p>
+                  </div>
+                </div>
+                <div class="button-wrapper hidden">
+                  <button class="button try-again-btn">TRY AGAIN</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab calculation-info-tab hidden" data-showtab="calculation-details">
+              <h6>?</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      © 2023 Ída Bjarney
+    </footer>
+    
+  </body>
+</html>
